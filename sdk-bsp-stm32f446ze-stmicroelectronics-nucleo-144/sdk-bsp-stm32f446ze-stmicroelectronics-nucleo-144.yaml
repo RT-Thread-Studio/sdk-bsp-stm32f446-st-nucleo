@@ -11,7 +11,7 @@ board:
   description_zh: STM32 Nucleo-144板为用户提供了一种可负担的灵活方法，通过选择STM32微控制器提供的各种性能和功耗特性组合来尝试新概念并构建原型。对于兼容板，内部或外部SMPS可显著降低运行模式下的功耗。
   emulator_machine: ''
   large_image: documents/images/board.jpg
-  name: STM32F446-ST-Nucleo
+  name: STM32F446-ST-NUCLEO
   price_cn: 168 CNY
   price_global: 25.96 USD
   sale_contact_cn: https://www.st.com/zh/evaluation-tools/nucleo-f446ze.html#sample-buy
@@ -69,7 +69,6 @@ template_projects:
     - README_zh.md
     - rtconfig.h
     - rtconfig.py
-    - rtconfig.pyc
     - rtconfig_preinc.h
     - SConscript
     - SConstruct
