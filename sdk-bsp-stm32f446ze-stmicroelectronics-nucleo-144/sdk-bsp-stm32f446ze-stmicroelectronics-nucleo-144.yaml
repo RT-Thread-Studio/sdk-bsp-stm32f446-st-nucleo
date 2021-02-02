@@ -1,0 +1,102 @@
+board:
+  buy_url_cn: https://www.st.com/zh/evaluation-tools/nucleo-f446ze.html#sample-buy
+  buy_url_global: https://www.st.com/en/evaluation-tools/nucleo-f446ze.html#sample-buy
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: The STM32 Nucleo-144 board provides an affordable and flexible way
+    for users to try out new concepts and build prototypes by choosing from the various
+    combinations of performance and power consumption features, provided by the STM32
+    microcontroller. For the compatible boards, the internal or external SMPS significantly
+    reduces power consumption in Run mode.
+  description_zh: STM32 Nucleo-144板为用户提供了一种可负担的灵活方法，通过选择STM32微控制器提供的各种性能和功耗特性组合来尝试新概念并构建原型。对于兼容板，内部或外部SMPS可显著降低运行模式下的功耗。
+  emulator_machine: ''
+  large_image: documents/images/board.jpg
+  name: STM32F446-ST-Nucleo
+  price_cn: 168 CNY
+  price_global: 25.96 USD
+  sale_contact_cn: https://www.st.com/zh/evaluation-tools/nucleo-f446ze.html#sample-buy
+  sale_contact_global: https://www.st.com/en/evaluation-tools/nucleo-f446ze.html
+  small_image: documents/images/board_small.jpg
+  vendor: STMicroelectronics
+  version: 1.0.0
+chip:
+  chip_name: STM32F446ZE
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F4
+  source_freq: '8000000'
+  sub_series_name: STM32F446
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf
+  title: dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics
+example_projects: []
+features:
+- 'MCU: STM32F446ZE, Basic  frequency 180MHz, 512KB Flash, 128KB RAM'
+- 'LED: 3, LED1 (green, PB0),LED2 (blue, PB7), LED3 (red, PB14)'
+features_zh:
+- MCU：STM32f446ZE，主频 180MHz，512KB FLASH ，128KB RAM
+- LED：3个，LED1 (绿色，PB0),LED2（蓝色，PB7），LED3（红色，PB14）
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - README_zh.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig.pyc
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: Nucleo-144
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
